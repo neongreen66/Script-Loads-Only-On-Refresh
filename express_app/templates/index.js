@@ -53,7 +53,7 @@ var tag = document.createElement("script");
 
 function scriptLoad () {
     tag.src = "static/js/d3line.js";
-    tag.id = "d3chart"
+    tag.id = "d3line"
     document.getElementsByTagName('head')[0].appendChild(tag);
 }
 
